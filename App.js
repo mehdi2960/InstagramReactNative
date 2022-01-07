@@ -12,6 +12,7 @@ import Profile from './src/components/screens/Profile';
 import Ionic from 'react-native-vector-icons/Ionicons';
 import Status from './src/components/screenComponents/Status';
 import FriendProfile from './src/components/screenComponents/FriendProfile';
+import EditProfile from './src/components/screenComponents/EditProfile';
 
 
 
@@ -69,6 +70,7 @@ const App = () => {
       <Stack.Screen name="Bottom" component={bottomTabScreen} />
       <Stack.Screen name="Status" component={Status} />
       <Stack.Screen name="FriendProfile" component={FriendProfile} /> 
+      <Stack.Screen name="EditProfile" component={EditProfile} /> 
     </Stack.Navigator>
   </NavigationContainer>
   );
